@@ -1,0 +1,36 @@
+
+  @keyframes bg_anim_1 {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .bg_anim_1 {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    animation-name: bg_anim_1;
+    animation-duration: 180s;
+    animation-iteration-count: infinite;
+    opacity: 0.3;
+
+
+
+  }
+
+  @keyframes bg_anim_2 {
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
+  .bg_anim_2 {
+    position: absolute;
+
+    z-index: -1;
+    width: 85vw;
+    animation-name: bg_anim_2;
+    animation-duration: 180s;
+    animation-iteration-count: infinite;
+    opacity: 0.3;
+
+  }
+

@@ -1,0 +1,50 @@
+.progress-div {
+  background-color: rgb(233, 233, 233);
+  border-radius: .1rem;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  .progress {
+    background-color: #FEC74A;
+    height: 10px;
+    border-radius: 1rem;
+    transition: 1s ease;
+    transition-delay: 0.5s;
+  }
+
+}
+.dawn {
+  display: flex;
+  text-align: start;
+  position:absolute;
+  bottom:2rem;
+  width:100%;
+  align-items: baseline;
+  padding-left: 1.5rem;
+  .dawn_file{
+    font-size: 1.1rem;
+    color:rgba(255, 255, 255, 1);
+    font-weight: 600;
+  }
+  .dawn_lo {
+    color: #FEC74A;
+    font-size: 3rem;
+    margin-left: 2rem;
+    font-weight: 600;
+  }
+  .dawn_pro {
+    color:rgba(255, 255, 255, 0.25);
+    font-size: 1.1rem;
+    margin-left: .5rem;
+    font-weight: 600;
+  }
+  .dawn_mb {
+    color:rgba(255, 255, 255, 0.25);
+    font-size: 1.1rem;
+    margin-left: 2rem;
+    font-weight: 600;
+  }
+}
+
+
+//style={{  stroke: "#FEC74A", strokeWidth: "4" }}

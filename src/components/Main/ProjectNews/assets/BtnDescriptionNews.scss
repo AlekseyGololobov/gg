@@ -1,0 +1,43 @@
+.wr-description {
+  .number_optimization {
+    display: flex;
+    background: url("./Ellipse.svg") no-repeat;
+    height: 3.5rem;
+    text-align: start;
+    padding-left: 1.5rem;
+    padding-top: 1.3rem;
+    span {
+      color: rgba(255,255,255, 1);
+      font-weight: 900;
+      font-size: 1.1rem;
+      line-height: 1rem;
+      margin-left: 1rem;
+    }
+
+  }
+  .text_description {
+    text-align: start;
+    color: rgba(255,255,255, 0.5);
+    font-size: 1rem;
+    line-height: 22px;
+    text-transform: none;
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 5.5rem;
+  }
+  .description {
+    display: flex;
+    margin: 0 auto;
+    color: rgba(255,255,255, 1);
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+    letter-spacing: .01rem;
+  }
+
+}
+.fr {
+  //display: flex;
+  //margin: 0 auto;
+  padding: 1rem;
+}

@@ -1,0 +1,113 @@
+/* Указываем box sizing */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing:inherit;
+}
+
+
+ul,
+ol {
+  padding: 0;
+}
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration-skip-ink: auto;
+  text-decoration: none;
+}
+
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+
+}
+
+button,
+button:active,
+button:focus {
+  outline: 0 !important;
+}
+
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  //background: url("unknown6 1.jpg") no-repeat 50%;
+  background-size: cover;
+  color: white;
+  text-transform: uppercase;
+  .title-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-left: 65px;
+    text-align: start;
+    .welcome {
+      text-shadow: 0px 0px 14px rgba(255, 255, 255, 0.05);
+      font-weight: 600;
+      font-size: 3rem;
+      line-height: 96%;
+      letter-spacing: 0.040rem;
+      font-style: normal;
+    }
+    .v {
+      letter-spacing: 0.040rem;
+      margin-top: 0.7rem;
+      font-weight: 300;
+      font-size: 3rem;
+    }
+    h1 {
+      display: flex;
+      flex-direction: column;
+      line-height: 95%;
+      margin-top:3.5rem ;
+    }
+
+    div {
+      display: flex;
+
+      margin-top: 0.8rem;
+      p {
+        margin-left: 1.2rem;
+        font-size: 0.9rem;
+        color: rgba(255, 255, 255, 0.5);
+        line-height: 95%;
+      }
+    }
+  }
+
+}

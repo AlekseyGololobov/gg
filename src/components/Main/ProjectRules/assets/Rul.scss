@@ -1,0 +1,46 @@
+.wr-descriptionn {
+  .number_optimizationn {
+
+    background: url("../../ProjectNews/assets/Ellipse.svg") no-repeat;
+    height: 3.5rem;
+    flex-direction: column;
+    text-align: start;
+    align-content: center;
+    padding-left: 1.5rem;
+
+    span {
+      color: rgba(255,255,255, 1);
+      font-weight: 900;
+      font-size: 1.1rem;
+      line-height: 1rem;
+      position: absolute;
+      padding-top: 1.4rem;
+      padding-left: 0.15rem;
+    }
+    .titleDescriptionNews {
+      padding-left: 3rem;
+    }
+
+  }
+  .text_descriptionn {
+    text-align: start;
+    color: rgba(255,255,255, 0.5);
+    font-size: 1rem;
+    line-height: 22px;
+    text-transform: none;
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 4.4rem;
+    margin: 0.5rem 0 0.5rem 0;
+  }
+  .descriptionn {
+    padding-left: 3rem;
+    padding-top: 1rem;
+    color: rgba(255,255,255, 1);
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+    letter-spacing: .01rem;
+  }
+
+}
